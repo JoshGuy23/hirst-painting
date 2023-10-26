@@ -19,6 +19,7 @@ def create_painting():
     timmy = Turtle()
     timmy.penup()
     timmy.speed("fastest")
+    timmy.hideturtle()
     screen = Screen()
     screen.colormode(255)
     colors = extract_colors()
